@@ -121,14 +121,6 @@ void Tree::connect(Node * root) {
     connect(root->right);
 }
 
-Node * Tree::sortedArrayToBST(vector<int> &nums) {
-    reverse(nums.begin(), nums.end());
-    Tree * tree = new Tree();
-    for (int i = 0; i < (int) nums.size(); i++) {
-        tree->add(nums[i]);
-    }
-    return tree->getHead()
-}
 
 
 int main() {
