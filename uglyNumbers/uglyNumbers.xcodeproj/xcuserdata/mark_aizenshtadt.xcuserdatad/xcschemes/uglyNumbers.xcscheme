@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71E7E1F51C0B6787006F2F53"
-               BuildableName = "int calculate(string s) {  calculator(leetcode)"
-               BlueprintName = "int calculate(string s) {  calculator(leetcode)"
-               ReferencedContainer = "container:int calculate(string s) {  calculator(leetcode).xcodeproj">
+               BlueprintIdentifier = "719611E71C0CC4E00062B707"
+               BuildableName = "uglyNumbers"
+               BlueprintName = "uglyNumbers"
+               ReferencedContainer = "container:uglyNumbers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71E7E1F51C0B6787006F2F53"
-            BuildableName = "int calculate(string s) {  calculator(leetcode)"
-            BlueprintName = "int calculate(string s) {  calculator(leetcode)"
-            ReferencedContainer = "container:int calculate(string s) {  calculator(leetcode).xcodeproj">
+            BlueprintIdentifier = "719611E71C0CC4E00062B707"
+            BuildableName = "uglyNumbers"
+            BlueprintName = "uglyNumbers"
+            ReferencedContainer = "container:uglyNumbers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71E7E1F51C0B6787006F2F53"
-            BuildableName = "int calculate(string s) {  calculator(leetcode)"
-            BlueprintName = "int calculate(string s) {  calculator(leetcode)"
-            ReferencedContainer = "container:int calculate(string s) {  calculator(leetcode).xcodeproj">
+            BlueprintIdentifier = "719611E71C0CC4E00062B707"
+            BuildableName = "uglyNumbers"
+            BlueprintName = "uglyNumbers"
+            ReferencedContainer = "container:uglyNumbers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71E7E1F51C0B6787006F2F53"
-            BuildableName = "int calculate(string s) {  calculator(leetcode)"
-            BlueprintName = "int calculate(string s) {  calculator(leetcode)"
-            ReferencedContainer = "container:int calculate(string s) {  calculator(leetcode).xcodeproj">
+            BlueprintIdentifier = "719611E71C0CC4E00062B707"
+            BuildableName = "uglyNumbers"
+            BlueprintName = "uglyNumbers"
+            ReferencedContainer = "container:uglyNumbers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:int calculate(string s) {  calculator(leetcode).xcodeproj">
+      location = "self:uglyNumbers.xcodeproj">
    </FileRef>
 </Workspace>
