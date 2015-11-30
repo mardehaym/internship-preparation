@@ -1,0 +1,137 @@
+!SESSION 2015-11-28 14:09:31.023 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/mark_aizenshtadt/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -data /Users/mark_aizenshtadt/Documents/internship-preparation -product org.eclipse.epp.package.cpp.product -keyring /Users/mark_aizenshtadt/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-11-28 14:09:35.817
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-28 14:10:47.036
+!MESSAGE Error while parsing /Users/mark_aizenshtadt/Documents/internship-preparation/binaryTree/src/binaryTree.cpp.:Error while parsing /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional.
+!STACK 0
+java.lang.UnsupportedOperationException: addMember method should be called instead.
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPClassSpecialization.addChild(PDOMCPPClassSpecialization.java:452)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:577)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:379)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:452)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:379)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:338)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:510)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:477)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:155)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:613)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:269)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1231)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1050)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:857)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:537)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:146)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-28 14:10:47.061
+!MESSAGE Indexed 'binaryTree' (1 sources, 187 headers) in 11.01 sec: 22,592 declarations; 44,539 references; 0 unresolved inclusions; 8 syntax errors; 49 unresolved names (0.07%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-11-28 14:23:47.186
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:141)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:126)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:75)
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:304)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.getGDBVersion(GdbLaunchDelegate.java:303)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:107)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:95)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-28 14:26:18.400
+!MESSAGE Error while parsing /Users/mark_aizenshtadt/Documents/internship-preparation/binaryTree/src/binaryTree.cpp.:Error while parsing /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional.
+!STACK 0
+java.lang.UnsupportedOperationException: addMember method should be called instead.
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPClassSpecialization.addChild(PDOMCPPClassSpecialization.java:452)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:577)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:379)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:452)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:379)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:338)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:510)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:477)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:155)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:613)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:269)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1231)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1050)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:857)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:537)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:146)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-28 14:26:18.409
+!MESSAGE Indexed 'binaryTree' (1 sources, 187 headers) in 6.27 sec: 22,592 declarations; 44,539 references; 0 unresolved inclusions; 8 syntax errors; 49 unresolved names (0.07%)
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-11-28 14:38:43.033
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2015-11-28 14:38:43.033
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-11-28 14:38:43.033
+!MESSAGE The project description file (.project) for 'binaryTree' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 4 2 2015-11-28 14:38:43.283
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.linuxtools.internal.cdt.libhover.LibHover.saveLibraries(LibHover.java:120)
+	at org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.save(LibhoverPlugin.java:73)
+	at org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.access$0(LibhoverPlugin.java:72)
+	at org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin$1.saving(LibhoverPlugin.java:59)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.shutdown(SaveManager.java:1393)
+	at org.eclipse.core.internal.resources.Workspace.close(Workspace.java:605)
+	at org.eclipse.core.resources.ResourcesPlugin.stop(ResourcesPlugin.java:415)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)

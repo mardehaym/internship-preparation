@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : binaryTree.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct Node{
+	int val;
+	Node * left;
+	Node * right;
+	Node(int x) : val(x), right(NULL), left(NULL) {}
+};
+
+class Tree{
+private:
+	Node * _head;
+public:
+	Tree() {}
+	void add(int x);
+	void recAdd(Node * head, int x);
+};
+
+
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}
